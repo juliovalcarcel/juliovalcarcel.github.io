@@ -1,0 +1,35 @@
+# Site settings
+title: Julio Valcarcel
+description: 'Security, Technology, and anything I else find interesting'
+url: 'https://juliovalcarcel.com'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+
+author:
+  name: 'Julio Valcarcel'
+  email: contact@juliovalcarcel.com
+  github_username:  juliovalcarcel
+  linkedin_username:  juliovalcarcel
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
