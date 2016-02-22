@@ -8,6 +8,7 @@ baseurl: '/'
 author:
   name: 'Julio Valcarcel'
   email: contact@juliovalcarcel.com
+  twitter_username: jvalcarcel
   github_username:  juliovalcarcel
   linkedin_username:  juliovalcarcel
 
@@ -28,8 +29,7 @@ highlighter: rouge
 
 kramdown:
   input: GFM
-  # do not replace newlines by <br>s
   hard_wrap: false
 
 gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'LICENSE']
