@@ -3,11 +3,11 @@ title: Julio Valcarcel
 description: 'Security, Technology, and anything I else find interesting'
 url: 'https://juliovalcarcel.com'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-80179879-1'
 
 author:
   name: 'Julio Valcarcel'
-  email: contact@juliovalcarcel.com
+  email: julio@valcarcel.me
   twitter_username: jvalcarcel
   github_username:  juliovalcarcel
   linkedin_username:  juliovalcarcel
